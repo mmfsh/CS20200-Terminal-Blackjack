@@ -1,6 +1,5 @@
 module Score
 
-open System
 open Domain
 
 let getCardValue card =

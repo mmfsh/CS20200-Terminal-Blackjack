@@ -8,8 +8,8 @@
 
   <ItemGroup>
     <Compile Include="Domain.fs" />
-    <Compile Include="Score.fs" />
     <Compile Include="Deck.fs" />
+    <Compile Include="Score.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
