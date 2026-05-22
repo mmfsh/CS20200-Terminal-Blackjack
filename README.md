@@ -21,13 +21,13 @@ Follow these steps to run the game on your machine. We strongly suggest testing 
 
 ## Game Rules (Stated Requirements)
 
-1. **Standard Deck:** The game uses a standard 52-card deck[cite: 179]. The cards are shuffled at the beginning of the game[cite: 179].
-2. **Card Values:** Number cards (2-10) are worth their face value, face cards (J, Q, K) are worth 10, and Aces are worth 1 or 11 (whichever is more advantageous without exceeding 21)[cite: 180].
-3. **Initial Deal:** The user and the dealer each receive two cards initially[cite: 181]. The user’s cards are fully visible, but only one of the dealer’s cards is shown to the user[cite: 182].
-4. **Player Options:** On their turn, the user can choose to enter `H` to Hit (draw another card) or `S` to Stand (end their turn)[cite: 183].
-5. **Bust Condition:** If the user chooses to hit and their card total exceeds 21, the game system will print a "Bust" message, and the user immediately loses the game[cite: 184].
-6. **Dealer AI Rules:** When the user chooses to stand, it becomes the dealer’s turn[cite: 185]. The dealer will reveal their hidden card [cite: 185] and must automatically hit if their total is 16 or less, and must stand if their total is 17 or higher[cite: 186].
-7. **Win Condition:** If the dealer's total exceeds 21, the dealer busts and the user wins[cite: 187]. If neither busts, the scores are compared after the dealer stands[cite: 188]. The one with a total closest to 21 wins[cite: 188]. If the totals are the same, the game is a tie[cite: 189].
+1. **Standard Deck:** The game uses a standard 52-card deck. The cards are shuffled at the beginning of the game.
+2. **Card Values:** Number cards (2-10) are worth their face value, face cards (J, Q, K) are worth 10, and Aces are worth 1 or 11 (whichever is more advantageous without exceeding 21).
+3. **Initial Deal:** The user and the dealer each receive two cards initially. The user’s cards are fully visible, but only one of the dealer’s cards is shown to the user.
+4. **Player Options:** On their turn, the user can choose to enter `H` to Hit (draw another card) or `S` to Stand (end their turn).
+5. **Bust Condition:** If the user chooses to hit and their card total exceeds 21, the game system will print a "Bust" message, and the user immediately loses the game.
+6. **Dealer AI Rules:** When the user chooses to stand, it becomes the dealer’s turn. The dealer will reveal their hidden card and must automatically hit if their total is 16 or less, and must stand if their total is 17 or higher.
+7. **Win Condition:** If the dealer's total exceeds 21, the dealer busts and the user wins. If neither busts, the scores are compared after the dealer stands. The one with a total closest to 21 wins. If the totals are the same, the game is a tie.
 
 ---
 
@@ -46,5 +46,5 @@ Follow these steps to run the game on your machine. We strongly suggest testing 
 
 ### 3. Main points that the LLM was not able to do correctly:
 
-- The LLM failed to inherently balance the "gameplay experience/pacing" for a CLI environment, requiring human intervention to introduce timing delays between dealer moves[cite: 116].
-- It occasionally struggled with F#'s strict type inference rules across multi-file boundaries until explicit 3-position tuple returns were properly aligned[cite: 116].
+- The LLM failed to inherently balance the "gameplay experience/pacing" for a CLI environment, requiring human intervention to introduce timing delays between dealer moves.
+- It occasionally struggled with F#'s strict type inference rules across multi-file boundaries until explicit 3-position tuple returns were properly aligned.
