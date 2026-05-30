@@ -38,6 +38,7 @@ Follow these steps to run the game on your machine. We strongly suggest testing 
 - Setting up the multi-file project architecture (`Domain.fs`, `Deck.fs`, `Score.fs`, `Program.fs`).
 - Implementing the structural backbone for the recursive player/dealer turns in F#.
 - Writing the Ace optimization scoring algorithm.
+- Writing the README.md documentation writing.
 
 ### 2. What had to be manually changed or reprompted:
 
